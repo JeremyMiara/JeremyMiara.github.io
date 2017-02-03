@@ -1,4 +1,4 @@
-
+<css>
 body {
 	font: normal 90% "Trebuchet MS",Verdana,"Lucida Grande",Tahoma,Arial,Helvetica,Sans-Serif;
 	color: #444;
@@ -7,10 +7,7 @@ body {
 	margin:0;
 }
 
-#wrap {
-	padding: 0 3em 3em 3em;
-	margin:auto;
-}
+
 
 h1 {
 	color: #99b92c;
@@ -151,3 +148,4 @@ legend {
    -webkit-text-size-adjust: 70%;
   }
 }
+<css>
