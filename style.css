@@ -3,9 +3,10 @@ body{
 }
 
 #menu-deroulant, #menu-deroulant ul {
-    padding: 180;
-    margin: 180;
-    list-style: none;
+padding:0;
+margin:0;
+list-style:none;
+text-align:center;
 }
 #menu-deroulant {
 /* on centre le menu dans la page */
@@ -13,11 +14,14 @@ body{
 }
 #menu-deroulant li {
 /* on place les liens du menu horizontalement */
-    display: inline-block;
+display:inline-block;
+position:relative;
+border-radius:8px 8px 0 0;
 }
 #menu-deroulant ul li {
 /* on enlève ce comportement pour les liens du sous menu */
     display: inherit;
+	border-radius:0;
 }
 #menu-deroulant a {
     text-decoration: none;
