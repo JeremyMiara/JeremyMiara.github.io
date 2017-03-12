@@ -9,12 +9,12 @@ $(document).ready(function() {
 
 		success : function(data) {
 			$('#bitcoin_block_number').append(data.blocks);
-			$('#protocol_version').append(data.protocolversion);
+			//$('#protocol_version').append(data.protocolversion);
 		},
 
 		error : function(xhr, status, err) {
 			$('#bitcoin_block_number').append(err+" N/A");
-			$('#protocol_version').append(err+" N/A");
+			//$('#protocol_version').append(err+" N/A");
 		}
 	});
 });
