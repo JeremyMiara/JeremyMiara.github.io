@@ -24,4 +24,4 @@ $(document).ready(function() {
 			$('#time').append(err+" N/A");			
 			$('#peer_count').append(err+" N/A");			
 	});
-});
+};
