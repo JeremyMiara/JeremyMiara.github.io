@@ -9,11 +9,11 @@ $(document).ready(function() {
 		async : false,
 
 		success : function(data) {
-			$('#name').append(data.height);
+			$('#height').append(data.height);
 		},
 
 		error : function(xhr, status, err) {
-			$('#name').append(err+" N/A");
+			$('#height').append(err+" N/A");
 		}
 	});
 });
