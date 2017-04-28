@@ -9,11 +9,11 @@ $(document).ready(function() {
 		async : false,
 
 		success : function(data) {
-			$('#bitcoin_block_number').append(data.height);
+			$('#name').append(data.height);
 		},
 
 		error : function(xhr, status, err) {
-			$('#bitcoin_block_number').append(err+" N/A");
+			$('#name').append(err+" N/A");
 		}
 	});
 });
