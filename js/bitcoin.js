@@ -22,6 +22,7 @@ $(document).ready(function() {
 			$('#height').append(err+" N/A");
 			$('#hash').append(err+" N/A");
 			$('#time').append(err+" N/A");			
-			$('#peer_count').append(err+" N/A");			
+			$('#peer_count').append(err+" N/A");
+		}
 	});
-};
+});
